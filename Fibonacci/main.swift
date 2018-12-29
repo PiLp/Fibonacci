@@ -9,15 +9,9 @@
 import Foundation
 
 func Fibonacci(_ n: Int) -> Int {
-
-	if n <= 2 {
-		return 1
-	}
-	else { 
-		return Fibonacci(n - 1) + Fibonacci(n - 2)
-	}
+	if n <= 2 { return 1}
+	else {return Fibonacci(n - 1) + Fibonacci(n - 2)}
 }
-
 for i in 1...20 {
 	print(Fibonacci(i)) //
 }
