@@ -15,4 +15,3 @@ func Fibonacci(_ n: Int) -> Int {
 for i in 1...20 {
 	print(Fibonacci(i)) //
 }
-
